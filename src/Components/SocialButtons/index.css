@@ -1,0 +1,89 @@
+.main {
+  /* font-family: Roboto; */
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.icons-container {
+  width: 30vw;
+  margin-top: 80px;
+}
+.icon-button {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  transition-duration: 700ms;
+  border-radius: 50px;
+  cursor: pointer;
+  overflow: hidden;
+  float: left;
+  text-align: center;
+  margin: 0 5px;
+}
+.icon-button:hover {
+  width: 150px;
+}
+.icon-button:hover > .con1 {
+  background-color: #4267b2;
+}
+.icon-button:hover > .con2 {
+  /* background-color: #c13584; */
+  background-image: url("https://www.teahub.io/photos/full/130-1306333_instagram-logo-color-gradient.jpg");
+  background-size: cover;
+}
+.icon-button:hover > .con3 {
+  background-color: #e60023;
+}
+.icon-button:hover > .con4 {
+  background-color: #1da1f2;
+}
+.icon-button:hover > .con5 {
+  background-color: #ff0000;
+}
+.icon-button:hover > .icon-text {
+  margin-left: 9px;
+}
+.icon-button:hover .icon1 {
+  fill: #ffffff;
+}
+.icon1 {
+  font-size: 30px;
+}
+.icon-con {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.icon-text {
+  font-size: 18px;
+  font-weight: bold;
+  width: 0;
+
+  transition-duration: 1000ms;
+}
+.textColor1 {
+  color: #4267b2;
+}
+.textColor2 {
+  color: #c13584;
+  /* color: linear-gradient(to top, black, white);
+  background-image: url("https://www.teahub.io/photos/full/130-1306333_instagram-logo-color-gradient.jpg"); */
+}
+.textColor3 {
+  color: #e60023;
+}
+.textColor4 {
+  color: #1da1f2;
+}
+.textColor5 {
+  color: #ff0000;
+}
